@@ -1,0 +1,103 @@
+.Mainbox {
+  background: #3a6186;
+  background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+  background: linear-gradient(to right, #89253e, #3a6186);
+  font-family: "Roboto Slab", serif;
+}
+.Main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  margin-top: 0;
+  padding: 5px;
+}
+
+.avatar-container img {
+  border-radius: 5px 5px 0px 0px;
+  transition: transform 2s;
+}
+
+.avatar-container img:hover {
+  transform: scale(1.5);
+}
+
+.card {
+  width: 18rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.Card.card a {
+  margin: 0;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.Card img:hover {
+  transform: scale(1.1);
+}
+
+.Card .btn {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.Card .btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.pagination {
+  justify-content: center;
+}
+.Filterdata {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.Filterdata span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Filterdata label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.Filterdata select {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  outline: none;
+}
+
+.Filterdata select:focus {
+  border-color: #45a049;
+}
+
+/* Style the "Sort By" labels */
+.Filterdata select + label {
+  color: #555;
+}
+
+/* Style the "All" option differently */
+.Filterdata select option[value="10000"] {
+  font-style: italic;
+}

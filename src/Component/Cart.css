@@ -1,0 +1,54 @@
+/* Cart.css */
+
+.Cart {
+    padding: 20px;
+  }
+  
+  .CartItem {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .CartItem img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .CartItemContent {
+    flex: 1;
+  }
+  
+  .TotalSection {
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .TotalSection h3 {
+    margin: 0;
+  }
+  
+  .TotalSection button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .TotalSection button:hover {
+    background-color: #0056b3;
+  }
+  
+  .CartItemContent span
+  {
+  margin-left:8px;
+  }

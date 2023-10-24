@@ -1,0 +1,17 @@
+.boxnavbar
+{
+display: flex;
+color: black;
+}
+.boxnavbar a
+{
+border-radius:5px;
+color: rgb(10, 6, 6);
+border:1px solid black;
+padding:2px;
+}
+.boxnavbar a.active
+{
+background-color: rgb(12, 12, 12);
+color: rgb(255, 255, 255);
+}
